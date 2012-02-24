@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesStackState
+   version = "1.0">
+   <StackStates>
+      <StackState
+         stackFrameDescription = "-[MapScene highlight:]:MapScene.m">
+         <expressions>
+            <expression
+               value = "emitter.endSize">
+            </expression>
+            <expression
+               value = "emitter.startColor">
+            </expression>
+            <expression
+               value = "emitter.sourcePosition">
+            </expression>
+            <expression
+               value = "emitter.life">
+            </expression>
+            <expression
+               value = "emitter.endColorVar">
+            </expression>
+            <expression
+               value = "emitter.startColorVar">
+            </expression>
+            <expression
+               value = "emitter.endColor">
+            </expression>
+            <expression
+               value = "emitter.startSize">
+            </expression>
+            <expression
+               value = "emitter.emissionRate">
+            </expression>
+            <expression
+               value = "emitter.posVar">
+            </expression>
+         </expressions>
+      </StackState>
+      <StackState
+         stackFrameDescription = "-[GameData isKeyAtPositionX:andY:]:GameData.m">
+         <expressions>
+            <expression
+               value = "key.x">
+            </expression>
+            <expression
+               value = "key.y">
+            </expression>
+         </expressions>
+      </StackState>
+   </StackStates>
+</VariablesStackState>

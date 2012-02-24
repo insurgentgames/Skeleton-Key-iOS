@@ -1,0 +1,40 @@
+The level file format is simple. First there's a grid that's 6 chars by 8 chars, like so:
+
+!!...*
+**...*
+...*.*
+.*.***
+.*...*
+**.*.*
+*x.*x*
+******
+
+Legend:
+	. = space
+	* = solid
+	! = key
+	x = chest
+	X = open chest
+	o = door switch
+	| = left-right door closed
+	# = left-right door opened
+	- = up-down door closed
+	= = up-down door opened
+
+Underneath that is a number, how many moves the level must be completed in, like so:
+
+15
+
+So the whole level file ends up looking like:
+
+!!...*
+**...*
+...*.*
+.*.***
+.*...*
+**.*.*
+*x.*x*
+******
+15
+
+It should have a trailing newline. Once a level file is complete in a txt file, run convert_level.py on it to turn it into a dat file the game can load.
